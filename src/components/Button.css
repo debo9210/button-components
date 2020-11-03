@@ -1,0 +1,208 @@
+button {
+  cursor: pointer;
+}
+
+.Default {
+  border: none;
+  background: #e0e0e0;
+  font-family: 'Noto Sans JP' sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #3f3f3f;
+  border-radius: 5px;
+  margin: 0 230px 50px 0;
+  width: 101px;
+  height: 42px;
+  outline: none;
+}
+
+.DefaultHover {
+  background: #aeaeae;
+  padding: 13px 25px;
+  box-shadow: 0px 2px 3px 0px #333333;
+  margin: 0 0 50px 0;
+}
+
+.DefaultHover:hover {
+  width: 102px;
+  height: 43px;
+}
+
+.Outline {
+  border: 1px solid #3d5afe;
+  background: none;
+  font-family: 'Noto Sans JP' sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #3d5afe;
+  border-radius: 5px;
+  margin: 0 230px 50px 0;
+  width: 101px;
+  height: 42px;
+  outline: none;
+}
+
+.OutlineHover {
+  background: rgba(41, 98, 255, 0.1);
+  margin: 0 0 50px 0;
+}
+
+.OutlineHover:hover {
+  width: 100px;
+  height: 41px;
+}
+
+.DefaultText {
+  background: none;
+  color: #3d5afe;
+  outline: none;
+  border: none;
+}
+
+.DefaultTextHover {
+  border: none;
+  background: rgba(41, 98, 255, 0.1);
+  margin: 0 0 50px 0;
+}
+
+.DefaultDisableShadow,
+.DefaultIcon {
+  color: #fff;
+  background: #3d5afe;
+}
+
+.DefaultDisabled {
+  color: #9e9e9e;
+  background: #e0e0e0;
+  cursor: not-allowed;
+  margin: 0 200px 50px 0;
+}
+
+.DefaultDisabledText {
+  color: #9e9e9e;
+  background: none;
+  cursor: not-allowed;
+  margin: 0 0 50px 0;
+}
+
+.Text {
+  font-family: 'Ubuntu Mono' sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  color: #333;
+}
+
+.Text2 {
+  color: #828282;
+}
+
+.DefaultIcon {
+  width: 120px;
+  height: 42px;
+  margin: 0 100px 50px 0;
+  box-shadow: 0px 2px 3px 0px #0031ca;
+  /* border: 2px solid yellow; */
+}
+
+.material-icons {
+  font-size: 18px;
+  /* padding: 3px 5px 0 0; */
+}
+
+.start {
+  /* position: absolute;
+  left: 285px;
+  bottom: -139px; */
+  float: left;
+  height: 14px;
+  width: 13.2px;
+  margin-left: 15px;
+}
+
+.end {
+  float: right;
+  height: 14px;
+  width: 13.2px;
+  margin-right: 15px;
+}
+
+.DefaultSmall {
+  color: #fff;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px 0px #0031ca;
+  width: 93px;
+  height: 36px;
+  /* margin: 0 150px 50px 0; */
+  margin: 0;
+}
+
+.DefaultMedium {
+  color: #fff;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px 0px #0031ca;
+  width: 113px;
+  height: 41px;
+  margin: 0;
+}
+
+.DefaultLarge {
+  color: #fff;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px 0px #0031ca;
+  width: 113px;
+  height: 46px;
+  margin: 0;
+}
+
+.default {
+  box-shadow: 0px 2px 3px 0px #e0e0e0;
+}
+
+.Primary {
+  background: #2962ff;
+  color: #fff;
+  box-shadow: 0px 2px 3px 0px #2962ff;
+}
+
+.Secondary {
+  background: #455a64;
+  color: #fff;
+  box-shadow: 0px 2px 3px 0px #455a64;
+}
+
+.Danger {
+  background: #d32f2f;
+  color: #fff;
+  box-shadow: 0px 2px 3px 0px #d32f2f;
+}
+
+.defaultHover {
+  background: #aeaeae;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.PrimaryHover {
+  color: #fff;
+  background: #0039cb;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+.SecondaryHover {
+  color: #fff;
+  background: #1c313a;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+
+.DangerHover {
+  color: #fff;
+  background: #9a0007;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
