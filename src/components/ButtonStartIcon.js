@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from './Button';
+import '../App.css';
 
 const ButtonStartIcon = () => {
     return (
         <div>
             <Button 
-                btnClass='Default DefaultIcon' 
+                btnClass='Default DefaultIcon starting' 
                 btnName='Default' 
                 btnType='<Button startIcon=”local_grocery_store” />'
                 pClass='Text'

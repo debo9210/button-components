@@ -39,6 +39,9 @@ function App() {
       <div className="TopBtn">
         <ButtonDisabled />
         <ButtonDisabledText />
+      </div>
+
+      <div className="BtnIcon">
         <ButtonStartIcon />
         <ButtonEndIcon />
       </div>

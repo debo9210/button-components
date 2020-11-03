@@ -11,6 +11,14 @@
   flex-wrap: wrap;
 }
 
+.BtnIcon {
+  display: flex;
+}
+
+.starting {
+  margin-right: 300px;
+}
+
 .MidBtn {
   display: flex;
   justify-content: space-between;
